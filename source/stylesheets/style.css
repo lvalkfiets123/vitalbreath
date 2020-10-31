@@ -1,0 +1,69 @@
+body {
+    font-size: 20px;
+    font-family: fantasy; 
+    background-image: url("/source/media/valk-coaching-achtergrond.jpg");
+margin-left: 172px;
+margin-right: 172px;
+margin-top: 0px;
+}
+
+table.general-navi {
+    width: 10%;
+}
+tr.general-navi {
+    margin: 5;
+    background-color: none;
+    overflow: hidden;
+}
+
+td.general-navi:hover {
+    float: center;
+    display: block;
+    padding: 1px 1px;
+    background-color: aqua;
+}
+
+/* specifiek plaatje : "vliegende vogel" aanpassen */
+img.vliegendevogel {
+    width: 100%;
+}
+
+/* specifiek plaatje : "profielfotolach" aanpassen */
+img.profielfotolach {
+    width: 25%;
+}
+table {
+/* breedte tabel is gelijk aan "body" */
+    width: 100%;
+}
+
+/* algemene stijl voor alle td tags */
+td {
+    border: 2px solid blue;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+td:hover {
+    background-color: aqua
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 12px;
+}
+p {
+    font-size: 12px;
+}
+
